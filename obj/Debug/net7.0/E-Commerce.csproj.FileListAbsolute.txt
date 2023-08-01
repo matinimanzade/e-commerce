@@ -1,0 +1,7 @@
+C:\My Workspace\My Applications\Csharp\E-Sevices\E-Commerce\obj\Debug\net7.0\E-Commerce.csproj.AssemblyReference.cache
+C:\My Workspace\My Applications\Csharp\E-Sevices\E-Commerce\obj\Debug\net7.0\E-Commerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Workspace\My Applications\Csharp\E-Sevices\E-Commerce\obj\Debug\net7.0\E-Commerce.AssemblyInfoInputs.cache
+C:\My Workspace\My Applications\Csharp\E-Sevices\E-Commerce\obj\Debug\net7.0\E-Commerce.AssemblyInfo.cs
+C:\My Workspace\My Applications\Csharp\E-Sevices\E-Commerce\obj\Debug\net7.0\E-Commerce.csproj.CoreCompileInputs.cache
+C:\My Workspace\My Applications\Csharp\E-Sevices\E-Commerce\obj\Debug\net7.0\E-Commerce.MvcApplicationPartsAssemblyInfo.cs
+C:\My Workspace\My Applications\Csharp\E-Sevices\E-Commerce\obj\Debug\net7.0\E-Commerce.MvcApplicationPartsAssemblyInfo.cache
