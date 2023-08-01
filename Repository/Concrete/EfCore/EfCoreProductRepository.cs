@@ -1,11 +1,11 @@
 ﻿using E_Commerce.Entity;
 using E_Commerce.Repository.Abstract;
 
-namespace E_Commerce.Repository.Concrete.SQL
+namespace E_Commerce.Repository.Concrete.EfCore
 {
-    public class SQLOrderRepository : IOrderRepository
+    public class EfCoreProductRepository : IProductRepository
     {
-        public void Create(Order entity)
+        public void Create(Product entity)
         {
             throw new NotImplementedException();
         }
@@ -15,17 +15,17 @@ namespace E_Commerce.Repository.Concrete.SQL
             throw new NotImplementedException();
         }
 
-        public List<Order> GetAll()
+        public List<Product> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Order GetById(int id)
+        public Product GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Order entity)
+        public void Update(Product entity)
         {
             throw new NotImplementedException();
         }

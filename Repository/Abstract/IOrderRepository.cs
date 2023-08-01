@@ -1,6 +1,8 @@
-﻿namespace E_Commerce.Repository.Abstract
+﻿using E_Commerce.Entity;
+
+namespace E_Commerce.Repository.Abstract
 {
-    public interface IOrderRepository
+    public interface IOrderRepository : IRepository<Order>
     {
     }
 }
