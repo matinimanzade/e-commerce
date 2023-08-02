@@ -4,35 +4,49 @@ using Microsoft.EntityFrameworkCore;
 namespace E_Commerce.Repository.Concrete.EfCore.Generic
 {
     public class EfCoreGenericRepository<TContext, TEntity> : IGenericRepository<TEntity>
-        where TContext : class
-        where TEntity : DbContext, new()
+        where TEntity : class
+        where TContext : DbContext, new()
     {
         public void Create(TEntity entity)
         {
-            using(var context = new TContext())
+            using (var context = new TContext())
             {
-                context.Set
+                context.Set<TEntity>().Add(entity);
+                context.SaveChanges();
             }
         }
 
-        public void DeleteById(int id)
+        public void Delete(TEntity entity)
         {
-            throw new NotImplementedException();
+            using (var context = new TContext())
+            {
+                context.Set<TEntity>().Remove(entity);
+                context.SaveChanges();
+            }
         }
 
         public List<TEntity> GetAll()
         {
-            throw new NotImplementedException();
+            using (var context = new TContext())
+            {
+                return context.Set<TEntity>().ToList();
+            }
         }
 
         public TEntity GetById(int id)
         {
-            throw new NotImplementedException();
+            using (var context = new TContext())
+            {
+                return context.Set<TEntity>().Find(id);
+            }
         }
 
         public void Update(TEntity entity)
         {
-            throw new NotImplementedException();
+            using(var context = new TContext())
+            {
+                context.Entry(entity).State = EntityState.Modified;
+            }       
         }
     }
 }

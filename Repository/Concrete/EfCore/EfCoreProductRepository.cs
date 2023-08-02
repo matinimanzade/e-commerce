@@ -12,7 +12,7 @@ namespace E_Commerce.Repository.Concrete.EfCore
             shopContext.SaveChanges();
         }
 
-        public void DeleteById(int id)
+        public void Delete(Product entity)
         {
             throw new NotImplementedException();
         }

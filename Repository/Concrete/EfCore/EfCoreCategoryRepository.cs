@@ -10,7 +10,7 @@ namespace E_Commerce.Repository.Concrete.EfCore
             throw new NotImplementedException();
         }
 
-        public void DeleteById(int id)
+        public void Delete(Category entity)
         {
             throw new NotImplementedException();
         }

@@ -8,6 +8,6 @@ namespace E_Commerce.Repository.Abstract.Generic
         List<T> GetAll();
         void Create(T entity);
         void Update(T entity);
-        void DeleteById(int id);
+        void Delete(T entity);
     }
 }
