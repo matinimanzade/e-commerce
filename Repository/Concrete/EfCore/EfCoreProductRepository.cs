@@ -1,13 +1,15 @@
 ﻿using E_Commerce.Entity;
 using E_Commerce.Repository.Abstract;
 
-namespace E_Commerce.Repository.Concrete.SQL
+namespace E_Commerce.Repository.Concrete.EfCore
 {
-    public class SQLCategoryRepository : ICategoryRepository
+    public class EfCoreProductRepository : IProductRepository
     {
-        public void Create(Category entity)
+        private ShopContext shopContext = new ShopContext();
+        public void Create(Product entity)
         {
-            throw new NotImplementedException();
+            shopContext.Products.Add(entity);
+            shopContext.SaveChanges();
         }
 
         public void DeleteById(int id)
@@ -15,22 +17,22 @@ namespace E_Commerce.Repository.Concrete.SQL
             throw new NotImplementedException();
         }
 
-        public List<Category> GetAll()
+        public List<Product> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Category GetById(int id)
+        public Product GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<Category> GetPopularCategories()
+        public List<Product> GetPopularProducts()
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Category entity)
+        public void Update(Product entity)
         {
             throw new NotImplementedException();
         }
