@@ -25,6 +25,11 @@ namespace E_Commerce.Repository.Concrete.SQL
             throw new NotImplementedException();
         }
 
+        public List<Product> GetPopularProducts()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Update(Product entity)
         {
             throw new NotImplementedException();

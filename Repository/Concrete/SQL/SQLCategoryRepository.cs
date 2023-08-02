@@ -3,7 +3,7 @@ using E_Commerce.Repository.Abstract;
 
 namespace E_Commerce.Repository.Concrete.SQL
 {
-    public class SQLCategoryRepository : IRepository<Category>
+    public class SQLCategoryRepository : ICategoryRepository
     {
         public void Create(Category entity)
         {
@@ -21,6 +21,11 @@ namespace E_Commerce.Repository.Concrete.SQL
         }
 
         public Category GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Category> GetPopularCategories()
         {
             throw new NotImplementedException();
         }

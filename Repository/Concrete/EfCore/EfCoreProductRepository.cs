@@ -5,9 +5,11 @@ namespace E_Commerce.Repository.Concrete.EfCore
 {
     public class EfCoreProductRepository : IProductRepository
     {
+        private ShopContext shopContext = new ShopContext();
         public void Create(Product entity)
         {
-            throw new NotImplementedException();
+            shopContext.Products.Add(entity);
+            shopContext.SaveChanges();
         }
 
         public void DeleteById(int id)
@@ -21,6 +23,11 @@ namespace E_Commerce.Repository.Concrete.EfCore
         }
 
         public Product GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Product> GetPopularProducts()
         {
             throw new NotImplementedException();
         }
