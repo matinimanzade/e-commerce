@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O9/sQ3qxsb4nPa+dLjTtJUC3d2hi/NUltPlDFH5bt516we05woytdU5ed3gbk/d4f7/GmF6DXySmls2u5tYkhw==",
+  "dgSpecHash": "LjD4MfNKGQYiGmxB1SETObWS9aZuH3GB1J3Kz8GI8Ft53+Q7MS8E7J/K4hV6IXxqGQiNtLG7+Bov8h567CGK6Q==",
   "success": true,
-  "projectFilePath": "C:\\My Workspace\\My Applications\\Csharp\\E-Sevices\\E-Commerce\\E-Commerce.csproj",
+  "projectFilePath": "c:\\My Workspace\\My Applications\\Csharp\\e-services\\E-Commerce\\E-Commerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ALI\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
     "C:\\Users\\ALI\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.0\\microsoft.data.sqlite.core.5.0.0.nupkg.sha512",

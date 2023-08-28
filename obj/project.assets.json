@@ -1477,11 +1477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\My Workspace\\My Applications\\Csharp\\E-Sevices\\E-Commerce\\E-Commerce.csproj",
+      "projectUniqueName": "c:\\My Workspace\\My Applications\\Csharp\\e-services\\E-Commerce\\E-Commerce.csproj",
       "projectName": "E-Commerce",
-      "projectPath": "C:\\My Workspace\\My Applications\\Csharp\\E-Sevices\\E-Commerce\\E-Commerce.csproj",
+      "projectPath": "c:\\My Workspace\\My Applications\\Csharp\\e-services\\E-Commerce\\E-Commerce.csproj",
       "packagesPath": "C:\\Users\\ALI\\.nuget\\packages\\",
-      "outputPath": "C:\\My Workspace\\My Applications\\Csharp\\E-Sevices\\E-Commerce\\obj\\",
+      "outputPath": "c:\\My Workspace\\My Applications\\Csharp\\e-services\\E-Commerce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

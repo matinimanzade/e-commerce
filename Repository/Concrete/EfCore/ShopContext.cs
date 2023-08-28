@@ -12,5 +12,13 @@ namespace E_Commerce.Repository.Concrete.EfCore
         {
             optionsBuilder.UseSqlite("DataSource = shop_db");
         }
+
+        //Aşağıdakı metod ProductCategory modelindəki primaryKeyləri yapılandırır
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ProductCategory>()
+                .HasKey(c => new {c.ProductId, c.CategoryId});
+
+        }
     }
 }

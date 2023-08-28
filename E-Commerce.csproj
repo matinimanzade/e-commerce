@@ -21,7 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controller\" />
     <Folder Include="Repository\Concrete\MySQL\" />
     <Folder Include="Repository\Concrete\Ado\" />
     <Folder Include="Repository\Concrete\Dapper\" />
