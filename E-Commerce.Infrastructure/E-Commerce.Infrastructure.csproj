@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>E_Commerce.Infrastructure</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Repository\Concrete\Ado\" />
+    <Folder Include="Repository\Concrete\Dapper\" />
+    <Folder Include="Repository\Concrete\MySQL\" />
+	      <Folder Include="Repository\Concrete\MySQL\" />
+	  <Folder Include="Repository\Concrete\MySQL\" />
+E-Commerce.Domain\Domain\Entities
+	  		<ProjectReference Include="..\E-Commerce.Domain\E-Commerce.Domain.csproj" />
+	  <ProjectReference Include="..\E-Commerce.Domain\E-Commerce.Domain.csproj" />
+
+  </ItemGroup>
+	
+	<ItemGroup>
+    ...
+    <ProjectReference Include="..\E-Commerce.Domain\E-Commerce.Domain.csproj" />
+</ItemGroup>
+
+	<ItemGroup>
+		...
+		<ProjectReference Include="..\E-Commerce.Domain\E-Commerce.Domain.csproj" />
+	
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+  </ItemGroup>
+
+</Project>

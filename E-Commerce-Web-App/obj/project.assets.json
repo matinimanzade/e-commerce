@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\My Workspace\\My Applications\\Csharp\\e-services\\E-Commerce-Web-App\\E-Commerce-Web-App.csproj",
-      "projectName": "E-Commerce-Web-App",
-      "projectPath": "C:\\My Workspace\\My Applications\\Csharp\\e-services\\E-Commerce-Web-App\\E-Commerce-Web-App.csproj",
+      "projectUniqueName": "C:\\My Workspace\\My Applications\\Csharp\\e-commerce\\E-Commerce-Web-App\\E-Commerce.WebAPI.csproj",
+      "projectName": "E-Commerce.WebAPI",
+      "projectPath": "C:\\My Workspace\\My Applications\\Csharp\\e-commerce\\E-Commerce-Web-App\\E-Commerce.WebAPI.csproj",
       "packagesPath": "C:\\Users\\ALI\\.nuget\\packages\\",
-      "outputPath": "C:\\My Workspace\\My Applications\\Csharp\\e-services\\E-Commerce-Web-App\\obj\\",
+      "outputPath": "C:\\My Workspace\\My Applications\\Csharp\\e-commerce\\E-Commerce-Web-App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
